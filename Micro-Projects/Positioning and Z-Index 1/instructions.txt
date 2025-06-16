@@ -1,0 +1,4 @@
+1. Color of the body is #f4f4f4;
+2. Font family of the body is Arial, sans-serif;
+3. Width of the card is width:250px, background-color: white;box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+4.Width and height of picture is 100px;

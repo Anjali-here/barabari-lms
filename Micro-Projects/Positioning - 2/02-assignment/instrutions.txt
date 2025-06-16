@@ -1,0 +1,4 @@
+1.Reset margin, padding and box sizing
+2.Background color of header is blue
+3.Width of sidebar is 200px and height 90vh and  overflow-y: auto;
+4. Keep the article element height 200vh;

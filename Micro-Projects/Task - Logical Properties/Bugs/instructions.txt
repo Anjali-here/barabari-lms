@@ -1,0 +1,7 @@
+👉Bugs folder consist of two style files one is starter file which must be shared with students and another one is output file that contains the solution code.
+👉fix-1: students have to set the flex-dirction: column and give some gap: 20px then everything will look perfect and good to go.
+👉The real problem will start when they change the direction of web, go to body selector and then set dirction to rtl that is dirction: rtl, once this is done, have a look to your website and that is when we will see the issue.
+👉fix-2: to fix this issue change the physical properties to logical properties and done.
+👉Lastly, set the writing-mode: veritcal-rl and see if your website is matching with the output-2.png .
+👉Here, the main idea is your website should adapt its styling even if you change the dirction and writing-mode.
+👉In the default dirction that is left-to-right, your website should match with output-1 image adn when the dirction is set to right-to-left and writing-mode is set to vertical-rl, your website should match with output-2 image.
