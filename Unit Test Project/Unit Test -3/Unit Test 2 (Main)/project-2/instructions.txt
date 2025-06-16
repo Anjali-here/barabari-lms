@@ -1,0 +1,73 @@
+🚀 Instructions for Unit Test - 2
+⚠ Follow the instructions & start building! 🛠
+
+This project tests your understanding of logical properties, pseudo-classes, pseudo-elements, Flexbox, and Grid.
+
+🔗 Live Project Link:
+https://asiyaa22.github.io/TBC_learning/project-2/index.html
+
+Replicate the project on your own. Follow these important guidelines: 🔽
+
+🛠 Important Guidelines
+📌 General Rules
+✅ Use only logical properties instead of physical properties wherever applicable.
+✅ Apply the DRY (Don’t Repeat Yourself) principle—use common classes for elements with similar styling instead of writing repetitive CSS.
+
+🎯 Universal Reset
+ ◾ Apply a universal reset for padding, margin, and set box-sizing to border-box.
+
+📏 Set Dimensions for Body
+
+ ◾ This ensures the body covers the entire viewport and prevents unexpected spacing issues.
+
+🖋️ Font Settings
+ ◾ Set font-family: sans-serif;
+👉 dimensions for logo is : width-50px height-50px
+👉 Dimensions for illustration is : width-550px height-500px
+👉 Dimensions for mail logo which is inside input field is : width-30px height-30px
+
+🎨 Colors Used
+🔹 Background Color for Body: #e6e8e7
+🔹 Navigation Items (li) Text Color: rgb(59, 56, 56)
+🔹 Button Background Color: orangered
+🔹 Text Color: #4d5ee8
+🔹 Input Field Border Color: rgb(197, 190, 190)
+🔹 Footer Text Color: #4d5ee8
+🔹 Footer Links:
+   Default: black
+   On Hover: rgb(197, 190, 190)
+📌 Replicate remaining paragraph colors based on the reference design.
+
+✨ Hover & Interaction Effects
+✔️ Navbar Items (Home, Services, About Us):
+
+ ◾ On Hover: background-color: #4d5ee8;
+ ◾ Apply border-radius & cursor: pointer.
+✔️ Footer Links: Change color to rgb(197, 190, 190) on hover.
+
+✔️ Before Pseudo-Element for h1:
+
+ ◾  Add 🖥️ before the h1 using the ::before pseudo-element.
+📏 Layout & Alignment (Flexbox & Grid)
+✅ Use Flexbox or CSS Grid to align items properly in:
+
+✔️ Alignment
+ ◾ Align the elements of footer and the main container using flex or grid accordingly.
+
+🖼️ Blending Image with Background
+ ◾ Use the mix-blend-mode property to merge the image with the background for a seamless effect.
+
+✅ Steps to Apply mix-blend-mode: multiply;
+
+ ◾ Ensure the body has a background color set. 
+ ◾ Then select the image and set mix-blend-mode: multiply
+ ◾ This will blend the image with the background instead of appearing as a separate layer.
+
+🎯 Final Notes
+ ◾ Use Flexbox/Grid for proper layout structuring.
+ ◾ Ensure your styles match the reference design.
+ ◾ Use proper semantic HTML and maintain clean, structured CSS.
+
+
+🚀 Happy Coding! 🎨💻
+

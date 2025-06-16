@@ -1,0 +1,53 @@
+*{
+    font-family: sens-serif;
+    border-radius: 6px;
+}
+body{
+    font-family: sens-serif;
+    background-color:#e6e8e7;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+li{
+    display: inline-block;
+    text-color: rgb(59, 56, 56)
+    list-style: none;
+    gap:2px;
+    
+}
+.contact-us-btn {
+    background-color: #ff511c;
+    color: #fff;
+    border: none;
+    padding: 4px 4px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.join-now-btn {
+    background-color: #ff511c;
+    color: #fff;
+    border: none;
+    padding: 4px 4px;
+    font-size: 12px;
+    cursor: pointer;
+  border-radius: 8px;
+}
+li:hover{
+   background-color:#4d5ee8;
+}
+footer:hover{
+    color:rgb(197, 190, 190);
+}
+.content{
+    background-color: blue;
+}
+.image2{
+    padding: 10px;
+    width:35px;
+    height:35px;
+}

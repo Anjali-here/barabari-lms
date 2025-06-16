@@ -1,0 +1,44 @@
+*{
+  box-sizing:border-box;
+  font-family:sans-serif;
+}
+body{
+  background-color:#e6e8e7;
+
+}
+.navbar{
+  display:inline-flex;
+}
+li a{
+  align-items:center;
+  
+}
+button{
+  background-color:orangered;
+  color:#4d5ee8;
+
+}
+li{
+  list-style:none;
+}
+input{
+  border-color: rgb(197, 190, 190);
+
+}
+footer{
+  color:black;
+  background-color:blue;
+}
+.img2{
+  mix-blend-mode:multiply;
+  
+}
+h1::before{
+  content:'🖥️'
+}
+main{
+  color:blue;
+}
+.img3{
+  margin-block-start:8px;
+}

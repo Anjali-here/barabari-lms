@@ -1,0 +1,84 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background-color:#e6e8e7;
+  font-family:sans-serif;
+}
+.nav-div img{
+  inline-size:50px;
+  block-size:50px;
+  border-radius:50%;
+}
+.nav-div{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  color:rgb(59,56,59);
+}
+li{
+  display:inline;
+  margin-inline-start:10px
+}
+li:hover{
+  background-color:#4d5ee8;
+  padding:5px;
+  border-radius:5px;
+}
+.btn{
+  margin-inline-start:10px;
+  background-color:orangered;
+  color:#fff;
+  padding:7px;
+  border-radius:20px;
+  border:none;
+}
+h1::before{
+  content:"🖥";
+}
+h1,p{
+  color:#4d5ee8;
+}
+.mail-logo img{
+  block-size:30px;
+  inline-size:30px;
+  position:absolute;
+  top:5px;
+}
+.mail-logo .btn2{
+  
+  
+}
+.mail-logo button{
+  padding:10px;
+  border-radius:20px;
+  position:absolute;
+  background-color:orangered;
+  color:#fff;
+  border:none;
+}
+.mail-logo{
+  position:relative;
+}
+input{
+  padding:10px;
+  padding-inline-start:30px;
+  
+}
+.img-div{
+  mix-blend-mode:multiply;
+  inline-size:550px;
+  block-size:500px;
+}
+.content{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:100px 100px;
+  
+}
+
+
+
