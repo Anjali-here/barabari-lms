@@ -1,194 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Barabari LMS</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header>
-    <h1>Barabari LMS</h1>
-    <nav class="main-tabs">
-      <a href="#">Curriculum</a>
-      <a href="#">Projects</a>
-      <a href="#">Extra Curricular & Student Activity</a>
-    </nav>
-  </header>
-  
-  <section class="section-title">
-    <img src="https://cdn-icons-png.flaticon.com/512/906/906175.png" width="30" />
-    <h2>Curriculum</h2>
-  </section>
-
-  
-  <section class="units-container">
-
-  <div class="unit-box">
-    <h3>Unit 1: JavaScript Roadmap</h3>
-    <p>Foundational resources for learning JavaScript and building interactivity.</p>
-    <ul>
-      <li><a href="https://github.com/Anjali-here/barabari-lms/tree/main/Class%20Plan%20-%20Begumpet/JavaScript" target="_blank">View JavaScript Curriculum</a></li>
-    </ul>
-  </div>
-
-  <div class="unit-box">
-    <h3>Unit 2: DSA Roadmap</h3>
-    <p>Data Structures and Algorithms with structured plans per location.</p>
-    <ul>
-      <li><a href="https://github.com/Anjali-here/barabari-lms/tree/main/Class%20Plan%20-%20City%20college/CSS%20class%20plans" target="_blank">City College DSA Plans</a></li>
-    </ul>
-  </div>
-
-  <div class="unit-box">
-    <h3>Unit 3: DOM</h3>
-    <p>Document Object Model tutorials and walkthroughs.</p>
-    <ul>
-      <li><a href="https://github.com/Anjali-here/barabari-lms/tree/main/Class%20Plan%20-%20Begumpet/DOM" target="_blank">DOM Reference Materials</a></li>
-    </ul>
-  </div>
-
-  <div class="unit-box">
-    <h3>Unit 4: React Class Plan</h3>
-    <p>Course materials and session plans for React-based development.</p>
-    <ul>
-      <li><a href="https://github.com/Anjali-here/barabari-lms/tree/main/Class%20Plan%20-%20City%20college" target="_blank">React Class Folder</a></li>
-    </ul>
-  </div>
-
-  <div class="unit-box">
-    <h3>Unit 5: Advanced JS & Node</h3>
-    <p>Advanced topics in JavaScript and backend Node.js development.</p>
-    <ul>
-      <li>
-        <a href="https://github.com/Anjali-here/barabari-lms/blob/main/Class%20Flow/Advanced%20JS%20and%20Node%20class%20flow%20(1).docx" target="_blank">
-          View / Download Advanced JS & Node Doc
-        </a>
-      </li>
-    </ul>
-  </div>
-
-  <div class="unit-box">
-    <h3>Unit 6: Full Backend</h3>
-    <p>Complete backend development roadmap: Express, MongoDB, APIs & Auth.</p>
-    <ul>
-      <li>
-        <a href="https://github.com/Anjali-here/barabari-lms/blob/main/Class%20Flow/%F0%9F%94%A5%20Full%20Backend%20Roadmap_%20Express%20%2B%20MongoDB%20%2B%20APIs.docx" target="_blank">
-          View / Download Full Backend Roadmap
-        </a>
-      </li>
-    </ul>
-  </div>
-
-</section>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Barabari Curriculum</title>
   <style>
     body {
-      margin: 0;
-      font-family: "Segoe UI", sans-serif;
-      background-color: #f9fafb;
-      color: #111827;
+      font-family: Arial, sans-serif;
+      background: #f8f8f8;
+      padding: 30px;
+      color: #333;
     }
-
-    header {
-      background-color: #1e3a8a;
-      color: white;
+    h1 {
       text-align: center;
-      padding: 2rem 1rem 1.5rem;
+      color: #006699;
     }
-
-    header h1 {
-      margin: 0;
-      font-size: 2rem;
-    }
-
-    .main-tabs {
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      margin-top: 1rem;
-    }
-
-    .main-tabs a {
-      color: #e0e7ff;
-      text-decoration: none;
-      font-size: 1.1rem;
-      font-weight: 500;
-      padding: 0.4rem 1.2rem;
-      border-radius: 6px;
-      transition: background 0.3s;
-    }
-
-    .main-tabs a:hover {
-      background-color: rgba(255, 255, 255, 0.1);
-    }
-
-    .section-title {
-      display: flex;
-      align-items: center;
-      padding: 2rem 2rem 1.2rem;
-      font-size: 1.4rem;
-      font-weight: bold;
-    }
-
-    .section-title img {
-      margin-right: 0.6rem;
-    }
-
-    .units-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 1.5rem;
-      padding: 0 2rem 3rem;
-      max-width: 1200px;
+    ul {
+      list-style-type: none;
+      padding: 0;
+      max-width: 500px;
       margin: auto;
     }
-
-    .unit-box {
-      background-color: white;
-      border-left: 6px solid #facc15;
-      border-radius: 12px;
-      padding: 1.5rem;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-      transition: transform 0.2s ease;
+    li {
+      margin: 15px 0;
     }
-
-    .unit-box:hover {
-      transform: translateY(-4px);
-    }
-
-    .unit-box h3 {
-      margin-top: 0;
-      color: #1e3a8a;
-      font-size: 1.1rem;
-    }
-
-    .unit-box ul {
-      list-style: disc;
-      padding-left: 1.25rem;
-      margin-top: 0.5rem;
-    }
-
-    .unit-box ul li {
-      margin-bottom: 0.4rem;
-    }
-
-    .unit-box ul li a {
+    a {
+      display: block;
+      padding: 15px;
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 8px;
       text-decoration: none;
-      color: #111827;
-      font-weight: 500;
+      color: #006699;
+      font-weight: bold;
+      text-align: center;
+      transition: 0.2s ease-in-out;
     }
-
-    .unit-box ul li a:hover {
-      color: #facc15;
+    a:hover {
+      background-color: #e6f2ff;
     }
   </style>
 </head>
-
 <body>
-  <!-- Your HTML content goes here -->
-  <header>
-    <h1>Welcome to My Website</h1>
-  </header>
+
+  <h1>📚 Barabari Curriculum</h1>
+  <ul>
+    <li><a href="Class%20Flow/">Class Flow</a></li>
+    <li><a href="Class%20Plan%20-%20Begumpet/">Class Plan - Begumpet</a></li>
+    <li><a href="Class%20Plan%20-%20City%20college/">Class Plan - City College</a></li>
+    <li><a href="Major-project/Project-1/">Major Project - Project 1</a></li>
+    <li><a href="Micro-Projects/">Micro-Projects</a></li>
+    <li><a href="Non-Tech%20Curriculum/">Non-Tech Curriculum</a></li>
+    <li><a href="Unit%20Test%20Project/">Unit Test Project</a></li>
+  </ul>
+
 </body>
 </html>
