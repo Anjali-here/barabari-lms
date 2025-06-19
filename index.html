@@ -1,58 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Barabari Curriculum</title>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Barabari LMS – Curriculum</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f8f8f8;
-      padding: 30px;
-      color: #333;
-    }
-    h1 {
-      text-align: center;
-      color: #006699;
-    }
-    ul {
-      list-style-type: none;
-      padding: 0;
-      max-width: 500px;
-      margin: auto;
-    }
-    li {
-      margin: 15px 0;
-    }
-    a {
-      display: block;
-      padding: 15px;
-      background: #fff;
-      border: 1px solid #ccc;
-      border-radius: 8px;
-      text-decoration: none;
-      color: #006699;
-      font-weight: bold;
-      text-align: center;
-      transition: 0.2s ease-in-out;
-    }
-    a:hover {
-      background-color: #e6f2ff;
-    }
+    /* existing CSS above... */
+    /* Add below styles to support new card types */
+
+    .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px,1fr)); gap: 2rem; padding: 0 2rem 4rem; max-width:1200px; margin:auto; }
+    .card { background:#fff; border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.05); padding:1.5rem; border-left:6px solid #facc15; transition:transform .2s; }
+    .card:hover { transform:translateY(-4px); }
+    .card h3 { margin-top:0; color:#1e3a8a; font-size:1.2rem; }
+    .card p { font-size:0.95rem; color:#374151; margin-bottom:0.8rem; }
+    .card .duration { font-weight:600; margin-bottom:0.6rem; }
+    .card a { display:inline-block; margin-top:0.6rem; font-weight:500; color:#1e40af; text-decoration:none; }
+    .card a:hover { text-decoration:underline; }
+
+    /* Intro & sections */
+    .intro { max-width:960px; margin:4rem auto 2rem; padding:0 1rem; text-align:center; }
+    .intro h2 { font-size:2.5rem; margin-bottom:1rem; color:#1e3a8a; }
+    .intro p { font-size:1.125rem; color:#4b5563; }
+    .section-title { text-align:center; margin-top:4rem; font-size:1.8rem; color:#1e3a8a; font-weight:700; }
+    .section-description { max-width:800px; margin:1rem auto 3rem; text-align:center; color:#4b5563; font-size:1rem; }
   </style>
 </head>
 <body>
+  <header><h1>Barabari LMS – Curriculum</h1></header>
 
-  <h1>📚 Barabari Curriculum</h1>
-  <ul>
-    <li><a href="Class%20Flow/">Class Flow</a></li>
-    <li><a href="Class%20Plan%20-%20Begumpet/">Class Plan - Begumpet</a></li>
-    <li><a href="Class%20Plan%20-%20City%20college/">Class Plan - City College</a></li>
-    <li><a href="Major-project/Project-1/">Major Project - Project 1</a></li>
-    <li><a href="Micro-Projects/">Micro-Projects</a></li>
-    <li><a href="Non-Tech%20Curriculum/">Non-Tech Curriculum</a></li>
-    <li><a href="Unit%20Test%20Project/">Unit Test Project</a></li>
-  </ul>
+  <section class="intro">
+    <h2>Welcome to the Barabari Curriculum</h2>
+    <p>Our programs combine technical depth with personal growth, intentionally designed to build skills through community and project-driven learning.</p>
+  </section>
 
+  <!-- TECHNICAL CURRICULUM -->
+  <div class="section-title">💻 TECHNICAL CURRICULUM</div>
+  <div class="section-description">Explore the structured technical phases designed to progressively build your coding, web development, and backend skills.</div>
+
+  <section class="card-grid">
+    <!-- HTML & CSS -->
+    <div class="card">
+      <h3>HTML & CSS</h3>
+      <p>Learn the basics of web structure and styling.</p>
+      <div class="duration">Duration: 8 Weeks</div>
+      <a href="https://www.notion.so/View-Class-Flow-2137f141f7cb80e8804eddc8c7232916?pvs=21" target="_blank">→ View Class Flow</a>
+    </div>
+
+    <!-- Advanced JS & Node -->
+    <div class="card">
+      <h3>Advanced JS & Node</h3>
+     <p>Modern JavaScript and backend foundations.</p>
+  <div class="duration">Duration: 4 Weeks</div>
+  <a href="advanced-js-node.html" target="_blank">→ View Class Flow</a>
+  </div>
+
+    <!-- JS Fundamentals -->
+    <div class="card">
+      <h3>JS Fundamentals</h3>
+      <p>Core programming concepts using JavaScript as the primary language.</p>
+      <div class="duration">Duration: 6 Weeks</div>
+      <a href="https://www.notion.so/View-Class-Flow-2137f141f7cb80eabb44f22542aba080?pvs=21" target="_blank">→ View Class Flow</a>
+    </div>
+
+    <!-- React -->
+    <div class="card">
+      <h3>React</h3>
+      <p>Build interactive user interfaces using ReactJS and modern tooling.</p>
+      <div class="duration">Duration: 4 Weeks</div>
+      <a href="https://www.notion.so/View-Class-Flow-2137f141f7cb8017b368ca921ca0f553?pvs=21" target="_blank">→ View Class Flow</a>
+    </div>
+
+    <!-- DSA -->
+    <div class="card">
+      <h3>DSA</h3>
+      <p>Ongoing sessions for data structures and algorithmic problem-solving.</p>
+      <div class="duration">Duration: Continuous</div>
+      <a href="https://www.notion.so/View-Class-Flow-2137f141f7cb80e89c8ae2d05544f4bc?pvs=21" target="_blank">→ View Class Flow</a>
+    </div>
+
+    <!-- Express & MongoDB -->
+    <div class="card">
+      <h3>Express & MongoDB</h3>
+      <p>Back-end development fundamentals using Express and MongoDB.</p>
+      <div class="duration">Duration: 4 Weeks</div>
+      <a href="https://www.notion.so/View-Class-Flow-2137f141f7cb8036a06cc162d3c90a87?pvs=21" target="_blank">→ View Class Flow</a>
+    </div>
+
+    <!-- DOM -->
+    <div class="card">
+      <h3>DOM</h3>
+      <p>Master DOM manipulation for dynamic web experiences.</p>
+      <div class="duration">Duration: 4 Weeks</div>
+      <a href="https://www.notion.so/View-Class-Flow-2137f141f7cb80508009fc9c6c73d38a?pvs=21" target="_blank">→ View Class Flow</a>
+    </div>
+
+    <!-- AI Tools -->
+    <div class="card">
+      <h3>AI Tools</h3>
+      <p>Explore the applications of AI in content generation and automation.</p>
+      <div class="duration">Duration: 4 Weeks</div>
+      <a href="https://www.notion.so/View-Class-Flow-2137f141f7cb80aab10fd8c9026c1501?pvs=21" target="_blank">→ View Class Flow</a>
+    </div>
+  </section>
+
+  <!-- NON-TECHNICAL CURRICULUM -->
+  <div class="section-title">🧠 NON-TECHNICAL CURRICULUM</div>
+  <div class="section-description">Soft skill development through seminars, simulations, and interview readiness to complement your technical growth.</div>
+
+  <section class="card-grid">
+    <div class="card">
+      <h3>Student Seminars</h3>
+      <p>Peer-led deep dives on advanced and interdisciplinary topics.</p>
+      <div class="duration">Duration: Continuous</div>
+      <a href="#" target="_blank">→ View Class Flow</a>
+    </div>
+
+    <div class="card">
+      <h3>Workplace Simulation</h3>
+      <p>Team-based sprint simulations with real-world roles and feedback cycles.</p>
+      <div class="duration">Duration: Continuous</div>
+      <a href="#" target="_blank">→ View Class Flow</a>
+    </div>
+
+    <div class="card">
+      <h3>Interview Readiness</h3>
+      <p>Mock technical and HR interviews to build job-readiness confidence.</p>
+      <div class="duration">Duration: Continuous</div>
+      <a href="#" target="_blank">→ View Class Flow</a>
+    </div>
+  </section>
 </body>
 </html>
